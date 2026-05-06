@@ -1,4 +1,4 @@
-# ShopZone Product Page
+# Amazom Product Page
 
 A static Amazon-style product page built with only HTML and CSS. The page uses original demo content, local product images, responsive layouts, and e-commerce UI patterns inspired by modern online shopping pages.
 
