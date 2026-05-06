@@ -53,6 +53,16 @@ Amazon/
 
 Because the project is fully static, no build step or local server is required.
 
+## Netlify Deployment
+
+This project includes a `netlify.toml` file for static hosting.
+
+Recommended Netlify settings:
+
+- Build command: leave empty
+- Publish directory: `.`
+- Production branch: `main`
+
 ## Notes
 
 This is an original demo project. It does not use Amazon logos, trademarks, copied text, or real Amazon product content.
