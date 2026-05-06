@@ -1,32 +1,42 @@
-# Amazom Product Page
+# Amazon-Style Product Page
 
-A static Amazon-style product page built with only HTML and CSS. The page uses original demo content, local product images, responsive layouts, and e-commerce UI patterns inspired by modern online shopping pages.
+A polished, responsive e-commerce product page inspired by the layout of a modern Amazon product listing. The project is built with **HTML5** and **CSS3 only**, using original demo content, local product images, and a static deployment on Netlify.
 
-## Preview
+## Live Demo
 
-Open `index.html` directly in your browser.
+[View the live project on Netlify](https://amazonshopdemo3.netlify.app/?category=All&q=#)
+
+## Screenshot
+
+![Amazon-style product page screenshot](assets/screenshots/homepage.png)
+
+## Overview
+
+This project recreates the structure and feel of a full product detail page, including a navigation header, search bar, product gallery, purchase panel, product details, related product cards, and footer. It is designed as a front-end practice project and portfolio piece.
 
 ## Features
 
-- Dark top navigation bar with brand, delivery text, account links, orders, and cart area
-- Large search bar with category selector styling
-- Secondary navigation menu
-- Product gallery with vertical thumbnails and a large main product image
-- Product title, brand link, rating display, price, discount label, and product options
-- Purchase box with delivery details, quantity selector, Add to Cart, and Buy Now buttons
+- Responsive desktop, tablet, and mobile layout
+- Dark e-commerce header with brand, search, account, orders, and cart areas
+- Secondary navigation bar
+- Product image gallery with thumbnail column
+- Product title, rating, reviews, discount, price, and option selectors
+- Purchase card with delivery details, quantity selector, Add to Cart, and Buy Now buttons
 - Product information table
-- "About this item" bullet list
+- About section with product highlights
 - Product description section
-- Related product cards
+- Related product card grid
 - Multi-column footer
-- Responsive layout for desktop, tablet, and mobile
+- CSS-only hover effects
+- Accessible HTML structure with semantic elements and image alt text
 
-## Built With
+## Tech Stack
 
 - HTML5
 - CSS3
-- Flexbox
 - CSS Grid
+- Flexbox
+- Netlify
 
 No JavaScript, frameworks, or external CSS libraries are used.
 
@@ -35,6 +45,8 @@ No JavaScript, frameworks, or external CSS libraries are used.
 ```text
 Amazon/
 ├── assets/
+│   ├── screenshots/
+│   │   └── homepage.png
 │   ├── earbuds-speaker.jpg
 │   ├── portable-speaker.jpg
 │   ├── speaker-desk.jpg
@@ -42,27 +54,32 @@ Amazon/
 │   └── speaker-top.jpg
 ├── index.html
 ├── styles.css
+├── netlify.toml
 ├── .gitignore
 └── README.md
 ```
 
-## How to Run
+## Run Locally
 
-1. Download or clone the project.
-2. Open `index.html` in any modern web browser.
+Clone the repository and open `index.html` in your browser.
 
-Because the project is fully static, no build step or local server is required.
+```bash
+git clone https://github.com/yosef132/Amazon.git
+cd Amazon
+```
+
+No installation or build step is required.
 
 ## Netlify Deployment
 
-This project includes a `netlify.toml` file for static hosting.
+The project includes a `netlify.toml` file for static hosting.
 
-Recommended Netlify settings:
+Recommended settings:
 
 - Build command: leave empty
 - Publish directory: `.`
 - Production branch: `main`
 
-## Notes
+## Disclaimer
 
-This is an original demo project. It does not use Amazon logos, trademarks, copied text, or real Amazon product content.
+This is an educational front-end demo project. It is not affiliated with, endorsed by, or connected to Amazon. Product names, content, and page details are original demo material.
